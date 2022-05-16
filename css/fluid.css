@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: Inter, sans-serif;
+}
+
+.box{
+    background-color: #eee;
+    padding: 24px;
+}
+
+.sidebar {
+    background-color: #37A868;
+}
+
+.sidebar,
+.main-content{
+    font-weight: bold;
+    padding: 24px;
+}
+
+.card {
+    height: 200px;
+    background-color: #eee;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .sidebar {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidebar.fixed-width{
+        max-width: 272px;
+    }
+}
