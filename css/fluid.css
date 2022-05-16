@@ -9,6 +9,26 @@ body{
     font-family: Inter, sans-serif;
 }
 
+header{
+    background: #eee;
+    margin-bottom: 16px;
+    display: flex;
+}
+
+header nav {
+    padding: 24px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+header nav a {
+    color: #1e1e1e;
+}
+
 .box{
     background-color: #eee;
     padding: 24px;
