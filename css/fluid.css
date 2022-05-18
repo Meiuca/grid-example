@@ -39,6 +39,12 @@ header nav a {
     color: #eee;
 }
 
+.main-content{
+    justify-self: center;
+    margin: 0px auto;
+    max-width: 1440px;
+}
+
 .sidebar,
 .main-content{
     font-weight: bold;
