@@ -1,0 +1,49 @@
+.grid-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.grid-overlay,
+.grid,
+.grid > div {
+	min-height: 100vh;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 16px;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+}
+
+.grid > div {
+    display: block;
+    background-color: rgba(255, 79, 167, 0.18);
+}
+
+.container-grid {
+	margin-left: auto;
+	margin-right: auto;
+    padding: 24px;
+}
+
+@media (min-width: 64em) {
+	.container-grid {
+		max-width: 75%;
+	}
+}
+
+@media (min-width: 75em) {
+	.container-grid {
+		max-width: 83.333333%;
+	}
+}
+
+@media (min-width: 107em) {
+	.container-grid {
+		max-width: 89rem;
+	}
+}
